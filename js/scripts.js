@@ -35,9 +35,22 @@ function decToRom(number) {
   for (i = 0; i < 13; i++) {
     newArray.push(roman.char[i].repeat(Math.floor(remainder / roman.divide[i])));
     remainder = remainder % roman.divide[i];
-  }
+  } 
   return newArray.join('');
 };
+
 const roman = 2952;
 
+
 console.log(decToRom(roman))
+
+
+$(document).ready(function() {
+  $("#convert").on('change keyup paste',function(event) {
+    $("#output").text(decToRom($(this).val()));
+  });
+
+  $("#convert").on('change keyup paste', function() {
+    console.log('I am pretty sure the text box changed');
+});
+});

@@ -27,7 +27,7 @@ expect(decToRom(2902).toEqual("MMDCCCCII"))
 * * *
 
 ## Setup instructions:  
-* Go to [Github Pages](https://jjohan-work.github.io/#) to see webpage
+* Go to [Github Pages](https://jjohan-work.github.io/roman-numeral) to see webpage
 #### Alt
 * Clone Repo
 * Open index.html in browser
@@ -35,13 +35,13 @@ expect(decToRom(2902).toEqual("MMDCCCCII"))
 * * *
 
 ## To Do:
-* {future changes to the project}
+* Finish interface
 
 * * *
 
 ## Addition comments:
-* Created on x/x/21  
-* Currently in development and unfinished (*as of x/x/21*)
+* Created on 1/21/21  
+* Currently in development and unfinished (*as of 1/22/21*)
 
 * * *
 
